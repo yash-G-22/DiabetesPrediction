@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 65px;
+}
+
+.login {
+    text-align: -webkit-center;
+    opacity: 0.8;
+}
+
+button {
+    border-style: solid;
+    border-width: 6px;
+    border-color: darkgray;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    width: 40%;
+    height: 50px;
+    margin: 20px;
+    cursor: pointer;
+    font-size: large;
+    transition-duration: 0.5s;
+}
+
+input {
+    width: 90%;
+    margin: 10px;
+    background-color: linen;
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+    font-size: large;
+}
+
+form {
+    padding: 20px;
+    width: 40%;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+button:active {
+    background-color: darkgray;
+    transform: translateY(4px);
+}
